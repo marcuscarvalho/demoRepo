@@ -3,46 +3,59 @@
 <property name="name" value="HandleCase-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="4" name="severityP" type="InputTextInteger" id="1712263193">
+<field position="1" name="caseDescriptionP" type="InputText" id="1296823541">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;severityIn (severityP)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="severityIn"/>
-<property name="fieldClass" value="java.lang.Integer"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Case Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="caseDesIn"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="produto_versao" type="InputTextInteger" id="1068587734">
+<field position="2" name="commentP" type="InputText" id="1961041483">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;versao (produto)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="produtoIn/versao"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="1" name="commentP" type="InputText" id="1961041483">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;commentOut (commentP)quot;"/>
-<property name="readonly" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Answerquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="outputBinding" value="commentOut"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="subjectP" type="InputText" id="278491489">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;subjectIn (subjectP)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="subjectIn"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="2" name="produto_nome" type="InputText" id="1186038573">
+<field position="3" name="produto_nome" type="InputText" id="1186038573">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;nome (produto)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="produtoIn/nome"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="0" name="caseDescriptionP" type="InputText" id="1296823541">
+<field position="4" name="produto_versao" type="InputTextInteger" id="1068587734">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;caseDesIn (caseDescriptionP)quot;"/>
+<property name="label" value="quot;enquot;,quot;versao (produto)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="caseDesIn"/>
+<property name="inputBinding" value="produtoIn/versao"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="severityP" type="InputTextInteger" id="1712263193">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;severityIn (severityP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="severityIn"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="0" name="subjectP" type="InputText" id="278491489">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Case Titlequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="subjectIn"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="caseDesIn" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="caseDescriptionP"/>
