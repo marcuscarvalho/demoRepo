@@ -1,0 +1,32 @@
+
+<form id="1252216107">
+<property name="name" value="CustomerUpdate-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="commentsP" type="MultipleInput" id="2067889200">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;commentsIn (commentsP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="commentsIn"/>
+<property name="outputBinding" value="commentsOut"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="1" name="commentP" type="InputText" id="675537457">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;commentIn (commentP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="commentIn"/>
+<property name="outputBinding" value="commentOut"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="closeCaseP" type="CheckBox" id="546772402">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;closeCaseOut (closeCaseP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="closeCaseOut"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="closeCaseOut" value="java.lang.Boolean" id="closeCaseP"/>
+<dataHolder inputId="commentIn" name="#B29FE4" type="basicType" outId="commentOut" value="java.lang.String" id="commentP"/>
+<dataHolder inputId="commentsIn" name="#FF8881" type="basicType" outId="commentsOut" value="java.util.List" id="commentsP"/>
+</form>
