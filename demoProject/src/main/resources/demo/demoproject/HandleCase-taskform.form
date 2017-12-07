@@ -1,0 +1,57 @@
+
+<form id="1862349437">
+<property name="name" value="HandleCase-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="3" name="commentsP" type="MultipleInput" id="1901112834">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;commentsIn (commentsP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="commentsIn"/>
+<property name="outputBinding" value="commentsOut"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="4" name="severityP" type="InputTextInteger" id="1694878999">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;severityIn (severityP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="severityIn"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="closeCaseP" type="CheckBox" id="1780853427">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;closeCaseIn (closeCaseP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="closeCaseIn"/>
+<property name="outputBinding" value="closeCaseOut"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="subjectP" type="InputText" id="1723194178">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;subjectIn (subjectP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="subjectIn"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="caseDescriptionP" type="InputText" id="1848798188">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;caseDesIn (caseDescriptionP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="caseDesIn"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="commentP" type="InputText" id="1758993751">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;commentIn (commentP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="commentIn"/>
+<property name="outputBinding" value="commentOut"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="caseDesIn" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="caseDescriptionP"/>
+<dataHolder inputId="closeCaseIn" name="#FBB767" type="basicType" outId="closeCaseOut" value="java.lang.Boolean" id="closeCaseP"/>
+<dataHolder inputId="commentIn" name="#B29FE4" type="basicType" outId="commentOut" value="java.lang.String" id="commentP"/>
+<dataHolder inputId="commentsIn" name="#FF8881" type="basicType" outId="commentsOut" value="java.util.List" id="commentsP"/>
+<dataHolder inputId="severityIn" name="#9BCAFA" type="basicType" outId="" value="java.lang.Integer" id="severityP"/>
+<dataHolder inputId="subjectIn" name="#FF54A7" type="basicType" outId="" value="java.lang.String" id="subjectP"/>
+</form>
