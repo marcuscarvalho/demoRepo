@@ -3,54 +3,74 @@
 <property name="name" value="NewCase-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="caseDescriptionP" type="InputText" id="417854644">
+<field position="2" name="caseDescriptionP" type="InputText" id="417854644">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;caseDescOut (caseDescriptionP)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Case Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="outputBinding" value="caseDescOut"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="lista" type="MultipleInput" id="1889528729">
+<field position="3" name="documentP" type="Document" id="675953733">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;listaP (lista)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Attach a Documentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="docOut"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="0" name="lista" type="MultipleInput" id="1889528729">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Select a Product:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="listaP"/>
 <property name="fieldClass" value="java.util.List"/>
 </field>
-<field position="3" name="produto_nome" type="InputText" id="1882640716">
+<field position="4" name="produto_nome" type="InputText" id="1882640716">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;nome (produto)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="produtoOut/nome"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="produto_versao" type="InputTextInteger" id="1840088438">
+<field position="5" name="produto_versao" type="InputTextInteger" id="1840088438">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;versao (produto)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="produtoOut/versao"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="5" name="severityP" type="InputTextInteger" id="68706198">
+<field position="6" name="severityP" type="InputTextInteger" id="68706198">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;severityOut (severityP)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="severityOut"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="6" name="subjectP" type="InputText" id="2114629620">
+<field position="1" name="subjectP" type="InputText" id="2114629620">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;subjectOut (subjectP)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Case Titlequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="outputBinding" value="subjectOut"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="documentP" type="Document" id="675953733">
+<field position="7" name="1716502565" type="CheckBox" id="1716502565">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;docOut (documentP)quot;"/>
+<property name="label" value="quot;enquot;,quot;CheckBox7quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="docOut"/>
-<property name="fieldClass" value="org.jbpm.document.Document"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <dataHolder inputId="" name="#BBBBBB" type="basicType" outId="caseDescOut" value="java.lang.String" id="caseDescriptionP"/>
 <dataHolder inputId="" name="#E9E371" type="basicType" outId="docOut" value="org.jbpm.document.Document" id="documentP"/>
