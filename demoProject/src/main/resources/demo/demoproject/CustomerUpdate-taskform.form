@@ -1,0 +1,23 @@
+
+<form id="1145713133">
+<property name="name" value="CustomerUpdate-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="closeCase" type="CheckBox" id="597824004">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;closeCase (closeCase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="closeCase"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="commentP" type="InputText" id="338110024">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;commentIn (commentP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="commentIn"/>
+<property name="outputBinding" value="commentOut"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="closeCase" value="java.lang.Boolean" id="closeCase"/>
+<dataHolder inputId="commentIn" name="#FBB767" type="basicType" outId="commentOut" value="java.lang.String" id="commentP"/>
+</form>
