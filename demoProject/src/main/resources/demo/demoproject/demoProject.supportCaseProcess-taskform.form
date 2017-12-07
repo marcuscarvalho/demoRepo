@@ -3,75 +3,19 @@
 <property name="name" value="demoProject.supportCaseProcess-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="5" name="produto_nome" type="InputText" id="149129202">
+<field position="0" name=":decorator_0" type="HTMLLabel" id="414202258">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;nome (produto)quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="produto/nome"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name="caseDescriptionP" type="InputText" id="1296025853">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;caseDescriptionP (caseDescriptionP)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="caseDescriptionP"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="6" name="produto_versao" type="InputTextInteger" id="840233366">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;versao (produto)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="produto/versao"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="9" name="subjectP" type="InputText" id="960800374">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;subjectP (subjectP)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="subjectP"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="3" name="documentP" type="Document" id="1899374434">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;documentP (documentP)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="documentP"/>
-<property name="fieldClass" value="org.jbpm.document.Document"/>
-</field>
-<field position="2" name="commentP" type="InputText" id="307373669">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;commentP (commentP)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="commentP"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="7" name="sbrGroupP" type="InputText" id="1684852443">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;sbrGroupP (sbrGroupP)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="sbrGroupP"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="8" name="severityP" type="InputTextInteger" id="401066527">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;severityP (severityP)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="severityP"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="4" name="lista" type="MultipleInput" id="1154289175">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;lista (lista)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="lista"/>
-<property name="fieldClass" value="java.util.List"/>
-</field>
-<field position="1" name="closeCase" type="CheckBox" id="1459199927">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;closeCase (closeCase)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="closeCase"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;strong&gt;Open a Support Case by Clicking Here...&lt;/strong&gt;&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;&lt;strong&gt;Open a Support Case by Clicking Here...&lt;/strong&gt;&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;Open a Support Case by Clicking Here...&lt;/strong&gt;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;Open a Support Case by Clicking Here...&lt;/strong&gt;&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;&lt;strong&gt;Open a Support Case by Clicking Here...&lt;/strong&gt;&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;&lt;strong&gt;Open a Support Case by Clicking Here...&lt;/strong&gt;&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;&lt;strong&gt;Open a Support Case by Clicking Here...&lt;/strong&gt;&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;&lt;strong&gt;Open a Support Case by Clicking Here...&lt;/strong&gt;&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="" name="#BBBBBB" type="basicType" outId="caseDescriptionP" value="java.lang.String" id="caseDescriptionP"/>
 <dataHolder inputId="" name="#A7E690" type="basicType" outId="closeCase" value="java.lang.Boolean" id="closeCase"/>
