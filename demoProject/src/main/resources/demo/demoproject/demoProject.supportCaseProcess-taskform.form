@@ -1,0 +1,70 @@
+
+<form id="2102239362">
+<property name="name" value="demoProject.supportCaseProcess-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="4" name="documentP" type="Document" id="680601232">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;documentP (documentP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="documentP"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="7" name="subjectP" type="InputText" id="500465649">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;subjectP (subjectP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="subjectP"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="caseDescriptionP" type="InputText" id="639198479">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;caseDescriptionP (caseDescriptionP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="caseDescriptionP"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="severityP" type="InputTextInteger" id="321555116">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;severityP (severityP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="severityP"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="closeCaseP" type="CheckBox" id="917182499">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;closeCaseP (closeCaseP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="closeCaseP"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="commentP" type="InputText" id="1035216604">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;commentP (commentP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="commentP"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="commentsP" type="MultipleInput" id="1540392173">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;commentsP (commentsP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="commentsP"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="5" name="sbrGroupP" type="InputText" id="1338259289">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;sbrGroupP (sbrGroupP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="sbrGroupP"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="caseDescriptionP" value="java.lang.String" id="caseDescriptionP"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="closeCaseP" value="java.lang.Boolean" id="closeCaseP"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="commentP" value="java.lang.String" id="commentP"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="commentsP" value="java.util.List" id="commentsP"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="documentP" value="org.jbpm.document.Document" id="documentP"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="sbrGroupP" value="java.lang.String" id="sbrGroupP"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="severityP" value="java.lang.Integer" id="severityP"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="subjectP" value="java.lang.String" id="subjectP"/>
+</form>
